@@ -12,5 +12,5 @@ app.use(cors());
 app.use("/api", router);
 
 app.listen(PORT, () => {
-  console.log("LIGHTNING SERVICE RUNNING ON PORT", PORT);
+  console.log("RUNNING ON PORT", PORT);
 });
